@@ -20,7 +20,7 @@ add to your `.pre-commit-config.yaml`:
 ```
 repos:
 -   repo: https://github.com/NYSAG-GS/pre-commit
-    rev: v0.2
+    rev: <VERSION> # Get the latest from: https://github.com/NYSAG-GS/pre-commit/releases, e.g. v0.2
     hooks:
     - id: pip-freeze-check
 ```
