@@ -22,6 +22,6 @@ repos:
 -   repo: https://github.com/NYSAG-GS/pre-commit
     rev: v0.2
     hooks:
-    - id: pipfreezecheck
+    - id: pip-freeze-check
 ```
 
