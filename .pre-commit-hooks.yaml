@@ -1,0 +1,7 @@
+# This configuration file allows our pre-commit hooks to be used with pre-commit: http://pre-commit.com/
+
+- id: pipfreezecheck
+  name: pip freeze check
+  description: checks requirements.txt is up to date 
+  entry: hooks/pip-freeze-check.sh
+  language: script
