@@ -9,9 +9,19 @@ I needed this to create and push a tag: https://git-scm.com/book/en/v2/Git-Basic
 
 tag required for rev section in pre commit config
 
+remember to make the script executable!
+
 ## pip freeze check
 checks requirements.txt is up to date 
 
 from https://gist.github.com/milancermak/3849310#file-pre-commit-sh
 
+add to your `.pre-commit-config.yaml`:
+```
+repos:
+-   repo: https://github.com/NYSAG-GS/pre-commit
+    rev: v0.2
+    hooks:
+    - id: pipfreezecheck
+```
 
